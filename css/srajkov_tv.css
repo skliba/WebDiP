@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14.03.2015., 16:57:03
+    Author     : StefanoKliba
+*/
+body{
+    text-align: center;
+    font-size:14px;
+}
+
+#wrapper {
+    text-align: left;
+    width:85%;
+    margin: 0 auto;
+}
+#zaglavlje{
+    //background-image: url('logo.png');
+    background-repeat: no-repeat;
+    background-size:250px;
+    text-align: center;
+}
+#zaglavlje > h2,
+#zaglavlje > p{
+    padding-left:250px;
+}
+#navigacija > ul > li {
+    
+}
+#navigacija > ul > li > a:hover{
+    background-color:#C3C3E5;
+}
+#navigacija {
+    border-radius:5px 5px 5px 5px;
+}
+#right{
+    float:right;
+    width:70%;  
+}
+#rightUserList{
+    float:left;
+     width: 77.9%;
+}
+#left{
+    float:left;
+    
+}
+  
+.mypic {
+    background-image: url('srajkov.jpg');
+    width:100px;
+    height:100px;
+    float:left;
+    width:20%;
+    background-repeat:no-repeat;
+}
+
+.mojinfo > a,
+.mojinfo > p{
+   float:right;
+   width:80%;
+}
+
+label {
+    float:left;
+    width:23%;
+    border-radius: 2px;
+}
+input {
+    border-radius: 2px;
+    width:30%;
+}
+select {
+    border-radius: 2px;
+    width:30%;
+}
+textarea{
+    border-radius: 2px;
+    width:30%;
+}
+
+input[type="radio"] {
+    width:auto;
+}
+label[for="adresa"] {
+    margin-top: 15px;
+}
+label[for="cbox"]{
+    width:auto;
+}
+input[type="checkbox"]{
+    width:auto;
+    margin-left:15px;
+    margin-bottom:0px;
+}
+input[type="submit"]{
+    width:auto;
+}
+label[for="pcbox"]{
+    width:auto; 
+}
+input[name="rememberMe"]{
+    margin-top:0;
+    margin-bottom:15px;
+}
+div > label{
+    clear:both;
+    width:30%;
+}
+div > input{
+    margin-bottom:15px;
+}
+
+#subButton { 
+    background-color: #C3C3E5;
+    border-color: rgba(0,0,0,0.3); 
+    color: #000063;
+ 
+}
+.regHere{
+    width:30%;
+}
+#delForm{
+    background-color: #C3C3E5;
+    border-color: rgba(0,0,0,0.3);
+    color: #000063;
+ 
+}
+#logIn{
+    background-color: #C3C3E5;
+    border-color: rgba(0,0,0,0.3);
+    color: #000063;
+}
+#plogIn{
+    background-color: #C3C3E5;
+    border-color: rgba(0,0,0,0.3);
+    color: #000063;
+}
+
+
+

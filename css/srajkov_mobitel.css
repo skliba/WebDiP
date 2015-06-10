@@ -1,0 +1,158 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14.03.2015., 16:56:51
+    Author     : StefanoKliba
+*/
+
+body{
+    font-size:14px;
+}
+
+#zaglavlje > #headerDiv > h2{
+    margin-left: 5px;
+}
+#navigacija > ul > li{
+    
+    text-align: center;
+}
+
+#navigacija > ul > li:hover{
+    background-color:#5A79A5;
+    
+}
+#sadrzaj{
+    padding-left: 10px;
+    padding-right:10px;
+}
+.mypic {
+    background-image: url('srajkov.jpg');
+    width:100px;
+    height:100px;
+}
+#regcontent {
+    font-size:12px;
+}
+#inputcontent {
+    font-size:12px;
+    padding:0px;
+}
+label {
+    float:left;
+    width:35%;
+    margin: 3px 0;
+    border-radius: 2px;
+    
+}
+label[for="adresa"]{
+    margin-top:15px;
+}
+input {
+    border-radius: 2px;
+    width:150px;
+}
+select {
+    border-radius: 2px;
+    width:150px;
+}
+textarea{
+    border-radius: 2px;
+    width:150px;
+}
+
+input[type="radio"] {
+    width:auto;
+}
+label[for="cbox"]{
+    width:auto;
+}
+input[type="checkbox"]{
+    width:auto;
+    margin-left:15px;
+    
+    margin-bottom:0px;
+}
+input[type="submit"]{
+    width:auto;
+}
+label[for="pcbox"]{
+    width:auto; 
+}
+input[name="rememberMe"]{
+    margin-top:5px;
+    margin-bottom:15px;
+}
+#inputcontent > form{
+    width:100%;
+}
+form > div{
+    padding-top:10px;
+}
+div > input {
+    width:auto;
+    clear:both;
+    margin-bottom:15px;
+    
+}
+div > label {
+    clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#subButton {
+    background-color: #C3C3E5;
+    border-color: rgba(0,0,0,0.3); 
+    color: #000063;  
+}
+
+#delForm{  
+    background-color: #C3C3E5;
+    border-color: rgba(0,0,0,0.3);
+    color: #000063;
+ 
+}
+#logIn{
+    background-color: #C3C3E5;
+    border-color: rgba(0,0,0,0.3);
+    color: #000063;
+}
+#plogIn{
+    background-color: #C3C3E5;
+    border-color: rgba(0,0,0,0.3);
+    color: #000063;
+}
+
+
+.show {
+    display:table-cell;
+}
+
+div.cont{
+    overflow:hidden;
+    height:auto;
+    position:relative;
+    left:20%;
+}
+
+#picTd {
+    width: 100%;
+}
+td > a > img {
+    width: 100%;
+}

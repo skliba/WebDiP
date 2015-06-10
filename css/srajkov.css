@@ -1,0 +1,405 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14.03.2015., 15:06:28
+    Author     : StefanoKliba
+*/
+
+body{
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#F1F0FF;
+}
+#zaglavlje {
+    background-color:#000063;
+
+}
+#headerDiv{
+
+}
+#zaglavlje > #headerDiv > h2{
+    padding-top:10px;
+    margin-top:0px;
+    margin-bottom:10px;
+}
+#zaglavlje > #headerDiv > p{
+    padding-bottom:10px;
+    margin-top:0;
+}
+#zaglavlje > #headerDiv > h2, 
+#zaglavlje > #headerDiv > p{
+    color:#F1F0FF;
+}
+#signInLink{
+    bottom: 33px;
+    color: #f1f0ff;
+    float: right;
+    margin-right:5px;
+    position: relative;
+}
+
+#navigacija > ul {
+    padding-left:0px;
+    padding-left:10px;
+
+}
+#curr {
+    border-bottom: 1px solid #000063;
+}
+#navigacija{
+    background-color:#DEE7EF;
+    padding-right:10px;
+
+}
+#navigacija > ul{
+    list-style-type:none;
+    margin-top:0px;
+}
+#navigacija > ul > li{
+    padding-bottom:5px;
+    margin-bottom:10px;
+
+}
+#navigacija > ul > li > a{
+    text-decoration: none;
+    color: #000063;
+    text-transform: uppercase;
+}
+#navigacija > ul > li > a:link{
+    color: #000063;
+}
+#navigacija > ul > li > a:visited{
+    color:#570F48;
+}
+a:visited{
+    color:#570F48;
+}
+#inputcontent{
+    background-color: #9CAAC6;
+    padding: 10px 0 10px 20px;
+    margin-top:15px;
+    border-radius: 2px;
+    height:auto;
+}
+
+#inputcontent > form{
+    margin-left:5px;
+}
+
+#regcontent {
+    background-color: #9CAAC6;
+    padding: 10px 0 10px 20px;
+    margin-top:15px;
+    border-radius: 2px;
+
+    height:auto;
+}
+
+.osobTitle > h2 {
+    text-align:center;
+}
+#podnozje {
+    color:#F1F0FF;
+    background-color:#000063;
+    clear:both;
+    text-align:center;
+    height:auto;
+
+}
+.htmlval{
+    display:inline;
+
+}
+#podnozje {
+    font-size:12px;
+    height:auto;
+}
+#podnozje > p > a{
+    color:#F1F0FF;
+}
+
+.regHere{
+    font-size:12px;
+    width:50%;
+    float:left;
+}
+
+#adresa{
+    height: 35px;
+}
+#ime, #prezime, #slika, #adresa, #sigPitanje, #grad, #mail, #uname, #pw, #datum, #tel, #mbox, #fbox, #subButton, #delForm, #answer{
+    margin-bottom:15px;
+}
+#subButton{
+    width:auto;
+}
+#delForm{
+    cursor: pointer;
+
+}
+#sadrzaj > h2{
+    margin-bottom:10px;
+    margin-top:10px;
+    text-align:center;
+}
+#sadrzaj > h2,
+#sadrzaj > h3{
+    color:#000063;
+
+}
+
+
+
+#sadrzaj > section > h2,
+#sadrzaj > section > h3{
+    color:#000063;
+
+
+}
+
+.mojinfo > div > h2{
+    color:#000063;
+}
+#subButton {
+    margin:20px auto 20px auto;
+    cursor: pointer;
+}
+#logIn{
+    cursor: pointer;
+}
+#plogIn{
+    cursor: pointer;
+}
+
+
+
+
+div.cont{
+    width:100%;
+
+    overflow:scroll;
+
+}
+th{
+    background-color: #000063;
+    color:#fff;
+    font-size:12px;
+    text-align:center;
+    padding: 8px;
+}
+td{
+    border-style : none;
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+}
+
+table {
+    overflow: hidden;
+    font-size:12px;
+    width:100%;
+}
+
+td, th {
+    padding: 10px;
+    position: relative;
+    outline: 0;
+}
+td > a > img{
+    width:50%;
+}
+#picTd{
+    width:50%;
+}
+/*
+td:hover::after,
+thead th:not(:empty):hover::after,
+thead th:not(:empty):focus::after { 
+  content: '';  
+  height: 5000px;
+  left: 0;
+  position: absolute;  
+  top: -2500px;
+  width: 100%;
+  z-index: -1;
+}
+
+
+td:hover::after,
+th:hover::after {
+  background-color: #9CAAC6;
+}
+*/
+td > a > img {
+    height:50px;
+}
+
+div#right > section#sadrzaj > figure.navigacijskiDijagram {
+    width:200px;
+    margin-bottom:50px;
+    height:200px;
+}
+
+div#right > section#sadrzaj > figure.navigacijskiDijagram > a >  img {
+    width:200px;
+    height:200px;
+}
+
+#greske{
+
+}
+#greske > p > img{
+    width:40px;
+    height:40px;
+    float:left;
+    margin-right:12px;
+    position:relative;
+    bottom:13px;
+}
+#greske > p{
+    width:70%;
+    margin-bottom:25px;
+}
+fieldset{
+    width:25%;
+    border:none;
+}
+.highlight-input:focus{
+    box-shadow: 0 0 5px #000063;
+    padding: 3px 0px 3px 3px;
+    border: 1px solid #000063;
+}
+.highlight-input-error{
+    box-shadow: 0 0 5px #FF0033;
+    border: 1px solid #FF0033;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;   
+}
+
+#userList{
+    overflow-x: scroll;
+}
+
+#timeShiftButton{
+    background-color: #c3c3e5;
+    border-color: rgba(0, 0, 0, 0.3);
+    color: #000063;
+    cursor: pointer;
+    margin: 20px auto;
+    width: auto;
+}
+#paginationButton{
+    background-color: #c3c3e5;
+    border-color: rgba(0, 0, 0, 0.3);
+    color: #000063;
+    cursor: pointer;
+    margin: 20px auto;
+    width: auto;
+}
+
+#userListTable_filter > label{
+    float:none;
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+    
+    
+}
+#userListTable_filter > label > input{
+    box-shadow: 0 0 5px #000063;
+    padding: 3px 0px 3px 3px;
+    margin-left: 10px;
+    border: 1px solid #000063;
+}
+
+#userListTable_filter{
+    margin-bottom: 5px;
+    margin-left: 5px;
+    float:none;
+    text-align:left;
+}
+#popisKorisnikaTitle{
+    text-align: center;
+}
+
+.paginate_button.previous{
+    font-size: 15px;
+    margin-right: 10px;
+    padding: 0 5px;
+
+}
+.paginate_button {
+    margin-right: 10px;
+    padding: 0 5px;
+    cursor:pointer;
+}
+.paginate_button.current {
+    background-color: #000063;
+    color: white;
+    border-radius: 5px;
+}
+
+#od{
+    margin-top:10px;
+    width:100%;
+    margin-bottom:10px;
+    
+}
+#do{
+    margin-top:10px;
+    width:100%;
+    margin-bottom:10px;
+    
+}
+#sortBy{
+    margin-top:20px;
+    width:100%;
+    margin-bottom:20px;
+}
+
+#confirm{
+    background-color: #c3c3e5;
+    border-color: rgba(0, 0, 0, 0.3);
+    color: #000063;
+    cursor: pointer;
+    margin: 20px auto;
+    width: auto;
+}
+#printBtn{
+    background-color: #c3c3e5;
+    border-color: rgba(0, 0, 0, 0.3);
+    color: #000063;
+    cursor: pointer;
+    margin: 20px auto;
+    width: auto;
+}
+
+#setModeratorBtn{
+    background-color: #c3c3e5;
+    border-color: rgba(0, 0, 0, 0.3);
+    color: #000063;
+    cursor: pointer;
+}
+
+.input-modified{
+    margin-bottom:15px;
+}
+
+input[readonly]{
+    background-color:gray;
+}
+#chk{
+    margin-bottom:15px;
+}
+
+.buttonz{
+    background-color: #c3c3e5;
+    border-color: rgba(0, 0, 0, 0.3);
+    color: #000063;
+    cursor: pointer;
+    margin: 20px auto;
+    width: auto;
+}
+
+
